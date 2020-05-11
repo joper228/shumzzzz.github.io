@@ -8,6 +8,7 @@
 	<title>Portfolio</title>
 </head>
 <body>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
 	<header>
 	<nav>
 			<div class="portfolioPage"></div>
@@ -38,8 +39,24 @@
 	<p class="anim">Animation</p>
 	<p class="subAnim">Lorem ipsum dolor sitea amet, zixf<br>conseit  adipi cing elit, seddi do eius-<br>mod btdempor in didunt utlae ore<br>etioe.Lorem ipsum new idolor
 	</p>
-	<a href="#" class="btn-learnMore">Learn More</a>
-	<div class="line"></div>
+	<a href="#learnmore" class="btn-learnMore">Learn More</a>
 	</header>
+	<footer id="learnmore">
+		<div class="line"></div>
+		<div class="title2"><p>Feature products</p></div>
+		<div class="subtitle2">Lorem ipsum dolor sit amet, consectetur adipis cing elit,sed do eius-<br>mod tempor incididunt ut labore et.</div>
+	</footer>
+	<script>
+  $(document).ready(function(){
+    $("a[href*=#]").on("click", function(e){
+        var anchor = $(this);
+        $('html, body').stop().animate({
+            scrollTop: $(anchor.attr('href')).offset().top
+        }, 777);
+        e.preventDefault();
+        return false;
+    });
+});
+</script>
 </body>
 </html>
