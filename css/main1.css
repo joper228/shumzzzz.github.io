@@ -189,7 +189,8 @@ nav li a:hover {
 	color:#ff1f1f;
 }
 .btn-learnMore:hover {
-	background:#f2f2f2
+	background:#ff1f1f;
+	color:white;
 }
 .line {
 	position:absolute;
