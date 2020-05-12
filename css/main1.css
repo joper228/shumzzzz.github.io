@@ -254,7 +254,69 @@ footer {
 .black1 {
 	color:black;
 }
-.red:visited{
-	color:red;
+#pic0 {
+	margin:0;
+	width:250px;
+	height:250px;
+	background-color:#f5f0dd;
 }
-.black1:visited {}
+#pic1 {
+	margin:0;
+	margin-left:300px;
+	margin-top:-250px;
+	width:250px;
+	height:250px;
+	background-color:#f5f0dd;
+}
+#pic2 {
+	margin:0;
+	margin-left:600px;
+	margin-top:-250px;
+	width:250px;
+	height:250px;
+	background-color:#f5f0dd;
+}
+#pic3 {
+	margin:0;
+	margin-left:900px;
+	margin-top:-250px;
+	width:250px;
+	height:250px;
+	background-color:#f5f0dd;
+}
+#pic4 {
+	margin:0;
+	margin-top:50px;
+	width:250px;
+	height:250px;
+	background-color:#f5f0dd;
+}
+#pic5 {
+	margin:0;
+	margin-left:300px;
+	margin-top:-250px;
+	width:250px;
+	height:250px;
+	background-color:#f5f0dd;
+}
+#pic6 {
+	margin:0;
+	margin-left:600px;
+	margin-top:-250px;
+	width:250px;
+	height:250px;
+	background-color:#f5f0dd;
+}
+#pic7 {
+	margin:0;
+	margin-left:900px;
+	margin-top:-250px;
+	width:250px;
+	height:250px;
+	background-color:#f5f0dd;
+}
+.grid {
+	margin-left:5%;
+	list-style-type: none;
+	position:absolute;
+}

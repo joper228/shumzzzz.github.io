@@ -49,7 +49,7 @@
 		<nav class="nav2">
 		<ul >
 			<li>
-				<a href="javascript:void(0)" onclick="img1()" class="black1" id="myel">All</div></a>
+				<a href="javascript:void(0)" onclick="img1()" class="black1" id="myel" style="color:red">All</div></a>
 			</li>
 			<li>
 				<a href="javascript:void(0)" onclick="img2()" class="black1" id="myel1">Print template</a>
@@ -62,58 +62,125 @@
 			</li>
 		</ul>
 		</nav>
+		<ul class="grid">
+			<li>
+				<div id="pic0"></div>
+			</li>
+			<li>
+				<div id="pic1"></div>
+			</li>
+			<li>
+				<div id="pic2"></div>
+			</li>
+			<li>
+				<div id="pic3"></div>
+			</li>
+			<li>
+				<div id="pic4"></div>
+			</li>
+			<li>
+				<div id="pic5"></div>
+			</li>
+			<li>
+				<div id="pic6"></div>
+			</li>
+			<li>
+				<div id="pic7"></div>
+			</li>
+		</ul>	
 	</footer>
 
 	<script>
 	function img1() {
-		myel.style.cssText=`color:red;`
+		myel.style.cssText=`color:#ff1f1f;`
 		myel1.style.cssText=`color:black;`
 		myel2.style.cssText=`color:black;`
 		myel3.style.cssText=`color:black;`
 		myel4.style.cssText=`color:black;`
+		pic0.style.cssText=`background-color:#f5f0dd;`
+		pic1.style.cssText=`background-color:#f5f0dd;`
+		pic2.style.cssText=`background-color:#f5f0dd;`
+		pic3.style.cssText=`background-color:#f5f0dd;`
+		pic4.style.cssText=`background-color:#f5f0dd;`
+		pic5.style.cssText=`background-color:#f5f0dd;`
+		pic6.style.cssText=`background-color:#f5f0dd;`
+		pic7.style.cssText=`background-color:#f5f0dd;`
+
 	}
 	function img2() {
 		myel.style.cssText=`color:black;`
-		myel1.style.cssText=`color:red;`
+		myel1.style.cssText=`color:#ff1f1f;`
 		myel2.style.cssText=`color:black;`
 		myel3.style.cssText=`color:black;`
 		myel4.style.cssText=`color:black;`
+		pic0.style.cssText=`background-color:#ff1f1f;`
+		pic1.style.cssText=`background-color:#ff1f1f;`
+		pic2.style.cssText=`background-color:#ff1f1f;`
+		pic3.style.cssText=`background-color:#ff1f1f;`
+		pic4.style.cssText=`background-color:#ff1f1f;`
+		pic5.style.cssText=`background-color:#ff1f1f;`
+		pic6.style.cssText=`background-color:#ff1f1f;`
+		pic7.style.cssText=`background-color:#ff1f1f;`
 	}
 	function img3() {
 		myel.style.cssText=`color:black;`
 		myel1.style.cssText=`color:black;`
-		myel2.style.cssText=`color:red;`
+		myel2.style.cssText=`color:#ff1f1f;`
 		myel3.style.cssText=`color:black;`
 		myel4.style.cssText=`color:black;`
+		pic0.style.cssText=`background-color:orange;`
+		pic1.style.cssText=`background-color:orange;`
+		pic2.style.cssText=`background-color:orange;`
+		pic3.style.cssText=`background-color:orange;`
+		pic4.style.cssText=`background-color:orange;`
+		pic5.style.cssText=`background-color:orange;`
+		pic6.style.cssText=`background-color:orange;`
+		pic7.style.cssText=`background-color:orange;`
 	}
 	function img4() {
 		myel.style.cssText=`color:black;`
 		myel1.style.cssText=`color:black;`
 		myel2.style.cssText=`color:black;`
-		myel3.style.cssText=`color:red;`
+		myel3.style.cssText=`color:#ff1f1f;`
 		myel4.style.cssText=`color:black;`
+		pic0.style.cssText=`background-color:yellow;`
+		pic1.style.cssText=`background-color:yellow;`
+		pic2.style.cssText=`background-color:yellow;`
+		pic3.style.cssText=`background-color:yellow;`
+		pic4.style.cssText=`background-color:yellow;`
+		pic5.style.cssText=`background-color:yellow;`
+		pic6.style.cssText=`background-color:yellow;`
+		pic7.style.cssText=`background-color:yellow;`
 	}
 	function img5() {
 		myel.style.cssText=`color:black;`
 		myel1.style.cssText=`color:black;`
 		myel2.style.cssText=`color:black;`
 		myel3.style.cssText=`color:black;`
-		myel4.style.cssText=`color:red;`
+		myel4.style.cssText=`color:#ff1f1f;`
+		pic0.style.cssText=`background-color:green;`
+		pic1.style.cssText=`background-color:green;`
+		pic2.style.cssText=`background-color:green;`
+		pic3.style.cssText=`background-color:green;`
+		pic4.style.cssText=`background-color:green;`
+		pic5.style.cssText=`background-color:green;`
+		pic6.style.cssText=`background-color:green;`
+		pic7.style.cssText=`background-color:green;`
 	}
 </script>
 
 	<script>
-		"use strict"
-  $(document).ready(function(){
-    $("a[href*=#]").on("click", function(e){
-        let anchor = $(this);
-        $('html, body').stop().animate({
-            scrollTop: $(anchor.attr('href')).offset().top
-        }, 777);
-        e.preventDefault();
-        return false;
-    });
-});
-</script>
+	"use strict"
+  		$(document).ready(function(){
+    	$("a[href*=#]").on("click", function(e){
+        	let anchor = $(this);
+        	$('html, body').stop().animate({
+            	scrollTop: $(anchor.attr('href')).offset().top
+        	}, 777);
+        	e.preventDefault();
+        	return false;
+    	});
+	});
+	</script>
 </body>
 </html>
